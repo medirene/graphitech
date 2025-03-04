@@ -108,6 +108,11 @@ body {
   cursor: pointer;
 }
 
+.pcontact-btn a {
+  text-decoration: none;
+  color: black;
+}
+
 .pcontact-btn:hover {
   background: #ddd;
 }
@@ -152,7 +157,10 @@ body {
   font-size: 1rem;
   cursor: pointer;
 }
-
+.discu-btn a {
+  text-decoration: none;
+  color: #333;
+}
 .photo {
   width: 40%;
   background: url('images/portrait.png') center/cover;
