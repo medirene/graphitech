@@ -246,3 +246,21 @@ document.addEventListener("DOMContentLoaded", function () {
     nav.classList.toggle("active");
   });
 });
+
+
+
+
+
+
+
+/************************************ pour empecher les copies***************************************** */
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.body.addEventListener("contextmenu", event => event.preventDefault()); // Désactive le clic droit
+  document.body.addEventListener("selectstart", event => event.preventDefault()); // Bloque la sélection
+  document.body.addEventListener("copy", event => {
+      event.preventDefault();
+      alert("La copie de ce contenu est désactivée !");
+  });
+});
+
