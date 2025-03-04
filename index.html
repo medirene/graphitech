@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Graphitech</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+  <!-- ScrollTrigger Plugin -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/turn.js/4.1.0/turn.min.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="images/Fichier2.png" alt="Graphitech Logo" />
+    </div>
+    <nav class="nav">
+      <a href="#moi">Qui suis-je? </a>
+      <a href="#marques">Marques</a>
+      <a href="#services">Mes Services</a>
+      <a href="#realisations">Mes Réalisations</a>
+      <a class="contact-btn"
+          href="https://wa.me/33612345678?text=Bonjour,%20j’aimerais%20discuter%20de%20votre%20offre%20de%20design.">
+          Contactez-nous </a>
+    </nav>
+
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="overlay">
+        <div class="content">
+          <h1>Nous donnons vie à vos idées à travers le design.</h1>
+          <p>Que vous soyez une marque, un projet crypto ou une entreprise en quête d'identité visuelle, je conçois des
+            visuels qui marquent les esprits et racontent votre histoire. <br> <br> <strong>Transformons votre vision en
+              réalité !</strong></p>
+          <button class="pcontact-btn">Me contacter</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="moi" class="a_propos_de_moi">
+      <div class="description">
+        <h1>Je suis <strong class="deg">Irené MED !</strong> </h1>
+        <p>Graphiste passionné et créateur de visuels percutants, j’accompagne marques, startups et projets crypto dans
+          la construction d’une identité visuelle forte. Mon expertise couvre le <strong> branding, le design web, les
+            visuels
+            crypto et la communication digitale.</strong></p>
+        <p><strong>Des designs uniques, pensés pour marquer</strong> <br> Chaque projet est une opportunité de
+          transformer une idée en un visuel puissant et mémorable. Mon approche combine créativité, stratégie et
+          innovation pour offrir des designs qui captivent et engagent votre audience.</p>
+        <button class="discu-btn">Une idée ? Un projet ? Discutons-en !</button>
+      </div>
+      <div class="photo"></div>
+    </section>
+    <section id="marques" class="marques">
+      <h2 class="deg">MARQUES AVEC LESQUELLES J'AI COLLABORÉ</h2>
+      <div class="carousel-container">
+        <div class="carousel">
+          <img src="images/Marques/ArtiConnect.jpg" alt="ArtiConnect">
+          <img src="images/Marques/CBA.png" alt="CBA">
+          <img src="images/Marques/coinw.png" alt="Coinw">
+          <img src="images/Marques/opulence.png" alt="Opulence Services">
+          <img src="images/Marques/Dome.png" alt="Dome service">
+          <img src="images/Marques/ArtiConnect.jpg" alt="ArtiConnect">
+          <img src="images/Marques/CBA.png" alt="CBA">
+          <img src="images/Marques/coinw.png" alt="Coinw">
+          <img src="images/Marques/opulence.png" alt="Opulence Services">
+          <img src="images/Marques/Dome.png" alt="Dome service">
+          <img src="images/Marques/ArtiConnect.jpg" alt="ArtiConnect">
+          <img src="images/Marques/CBA.png" alt="CBA">
+          <img src="images/Marques/coinw.png" alt="Coinw">
+          <img src="images/Marques/opulence.png" alt="Opulence Services">
+          <img src="images/Marques/Dome.png" alt="Dome service">
+          <img src="images/Marques/ArtiConnect.jpg" alt="ArtiConnect">
+          <img src="images/Marques/CBA.png" alt="CBA">
+          <img src="images/Marques/coinw.png" alt="Coinw">
+          <img src="images/Marques/opulence.png" alt="Opulence Services">
+          <img src="images/Marques/Dome.png" alt="Dome service">
+          <img src="images/Marques/ArtiConnect.jpg" alt="ArtiConnect">
+          <img src="images/Marques/CBA.png" alt="CBA">
+          <img src="images/Marques/coinw.png" alt="Coinw">
+          <img src="images/Marques/opulence.png" alt="Opulence Services">
+          <img src="images/Marques/Dome.png" alt="Dome service">
+          <img src="images/Marques/ArtiConnect.jpg" alt="ArtiConnect">
+          <img src="images/Marques/CBA.png" alt="CBA">
+          <img src="images/Marques/coinw.png" alt="Coinw">
+          <img src="images/Marques/opulence.png" alt="Opulence Services">
+          <img src="images/Marques/Dome.png" alt="Dome service">
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="deg"> MES SERVICES</h2>
+      <h3>Besoin d’un design percutant ? Voici comment je peux vous aider :</h3> <br> <br>
+      <div class="services-container">
+        <div class="service">
+          <div class="icon">
+            <img src="images/done.png" alt="">
+          </div>
+          <div class="info">
+            <h3>Conception de logo & Identité visuelle</h3>
+          </div>
+        </div>
+
+        <div class="service">
+          <div class="icon">
+            <img src="images/done.png" alt="">
+          </div>
+          <div class="info">
+            <h3>Création de visuels pour le web & réseaux sociaux</h3>
+          </div>
+        </div>
+
+        <div class="service">
+          <div class="icon">
+            <img src="images/done.png" alt="">
+          </div>
+          <div class="info">
+            <h3> Design d’interface (UI/UX) & Web Design</h3>
+
+          </div>
+        </div>
+
+        <div class="service">
+          <div class="icon">
+            <img src="images/done.png" alt="">
+          </div>
+          <div class="info">
+            <h3> Illustrations & Affiches publicitaires</h3>
+          </div>
+        </div>
+
+        <div class="service">
+          <div class="icon">
+            <img src="images/done.png" alt="">
+          </div>
+          <div class="info">
+            <h3> Graphisme pour le secteur crypto & blockchain </h3>
+          </div>
+        </div>
+
+        <div class="service">
+          <div class="icon">
+            <img src="images/done.png" alt="">
+          </div>
+          <div class="info">
+            <h3>Conception de PLV (Publicité sur Lieu de Vente)</h3>
+          </div>
+        </div>
+        <div class="service">
+          <div class="icon">
+            <img src="images/done.png" alt="">
+          </div>
+          <div class="info">
+            <h3>Animation graphique & motion design</h3>
+          </div>
+        </div>
+        <div class="service">
+          <div class="icon">
+            <img src="images/done.png" alt="">
+          </div>
+          <div class="info">
+            <h3>Création d’infographies et présentations PowerPoint designées</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="realisations" class="realisation">
+      <h2 class="deg"> MES REALISATIONS </h2>
+      <h3>Images</h3>
+      <div class="rea_img">
+        <div class="portfolio-container">
+          <div class="grid">
+            <div class="grid-item"><img src="images/Réalisations/1.png" alt="Projet 1"></div>
+            <div class="grid-item"><img src="images/Réalisations/2.png" alt="Projet 2"></div>
+            <div class="grid-item"><img src="images/Réalisations/3.png" alt="Projet 3"></div>
+            <div class="grid-item"><img src="images/Réalisations/4.png" alt="Projet 4"></div>
+            <div class="grid-item"><img src="images/Réalisations/5.png" alt="Projet 5"></div>
+            <div class="grid-item"><img src="images/Réalisations/6.png" alt="Projet 6"></div>
+            <div class="grid-item"><img src="images/Réalisations/7.png" alt="Projet 7"></div>
+            <div class="grid-item"><img src="images/Réalisations/8.png" alt="Projet 8"></div>
+            <div class="grid-item"><img src="images/Réalisations/9.png" alt="Projet 9"></div>
+            <div class="grid-item"><img src="images/Réalisations/10.png" alt="Projet 10"></div>
+            <div class="grid-item"><img src="images/Réalisations/11.png" alt="Projet 11"></div>
+            <div class="grid-item"><img src="images/Réalisations/12.png" alt="Projet 12"></div>
+            <div class="grid-item"><img src="images/Réalisations/13.png" alt="Projet 13"></div>
+            <div class="grid-item"><img src="images/Réalisations/14.1.png" alt="Projet 14"></div>
+            <div class="grid-item"><img src="images/Réalisations/14.png" alt="Projet 15"></div>
+            <div class="grid-item"><img src="images/Réalisations/15.png" alt="Projet 16"></div>
+            <div class="grid-item"><img src="images/Réalisations/16.png" alt="Projet 17"></div>
+            <div class="grid-item"><img src="images/Réalisations/17.1.png" alt="Projet 18"></div>
+            <div class="grid-item"><img src="images/Réalisations/17.2.png" alt="Projet 19"></div>
+            <div class="grid-item"><img src="images/Réalisations/17.3.png" alt="Projet 20"></div>
+            <div class="grid-item"><img src="images/Réalisations/17.4.png" alt="Projet 21"></div>
+            <div class="grid-item"><img src="images/Réalisations/17.5.png" alt="Projet 22"></div>
+            <div class="grid-item"><img src="images/Réalisations/17.png" alt="Projet 23"></div>
+            <div class="grid-item"><img src="images/Réalisations/18.png" alt="Projet 24"></div>
+            <div class="grid-item"><img src="images/Réalisations/19.png" alt="Projet 25"></div>
+            <div class="grid-item"><img src="images/Réalisations/20.png" alt="Projet 26"></div>
+            <div class="grid-item"><img src="images/Réalisations/21.png" alt="Projet 27"></div>
+            <div class="grid-item"><img src="images/Réalisations/22.png" alt="Projet 28"></div>
+            <div class="grid-item"><img src="images/Réalisations/23.png" alt="Projet 29"></div>
+            <div class="grid-item"><img src="images/Réalisations/24.png" alt="Projet 30"></div>
+          </div>
+        </div>
+      </div>
+      <h3> Vidéos </h3>
+      <div class="rea_img">
+        <div class="portfolio-container">
+          <div class="grid_video">
+            <div class="video-item" onclick="openLightbox('images/Réalisations/videos/articonnect.mp4')">
+              <img src="images/Réalisations/videos/articonnect.png" alt="articonnect">
+              <div class="play-icon"></div>
+            </div>
+            <div class="video-item" onclick="openLightbox('images/Réalisations/videos/cba1.mp4')">
+              <img src="images/Réalisations/videos/cba1.png" alt="cba1">
+              <div class="play-icon"></div>
+            </div>
+            <div class="video-item" onclick="openLightbox('images/Réalisations/videos/cba2.mp4')">
+              <img src="images/Réalisations/videos/cba2.png" alt="cba2">
+              <div class="play-icon"></div>
+            </div>
+            <div class="video-item" onclick="openLightbox('images/Réalisations/videos/cba.mp4')">
+              <img src="images/Réalisations/videos/cba.png" alt="cba">
+              <div class="play-icon"></div>
+            </div>
+            <div class="video-item" onclick="openLightbox('images/Réalisations/videos/binance_Jingle_bells.mp4')">
+              <img src="images/Réalisations/videos/binance_Jingle_bells.png" alt="Binance Noel">
+              <div class="play-icon"></div>
+            </div>
+            <div class="video-item" onclick="openLightbox('images/Réalisations/videos/coinwfete.mp4')">
+              <img src="images/Réalisations/videos/coinwfete.png" alt="CoinW Fète">
+              <div class="play-icon"></div>
+            </div>
+            <div class="video-item" onclick="openLightbox('images/Réalisations/videos/Opulence_Services_Fête.mp4')">
+              <img src="images/Réalisations/videos/Opulence_Services_Fête.png" alt="Opulence Fête">
+              <div class="play-icon"></div>
+            </div>
+            <div class="video-item" onclick="openLightbox('images/Réalisations/videos/pubexcel.mp4')">
+              <img src="images/Réalisations/videos/pubexcel.png" alt="Pub Excel">
+              <div class="play-icon"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lightbox -->
+        <div class="lightbox" id="lightbox">
+          <h1 class="close-btn" onclick="closeLightbox()"> x </h1>
+          <video id="lightbox-video" controls></video>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="links">
+        <h3>Liens utiles</h3>
+        <ul>
+          <li> À propos de moi</li>
+          <li> Mes services</li>
+          <li> Mes réalisations</li>
+        </ul>
+      </div>
+
+      <div class="links">
+        <h3>Plus</h3>
+        <ul>
+          <li> Mentions légales</li>
+          <li> Conditions générales d'utilisation</li>
+          <li> Politique de protection des données</li>
+          <li> Cookies</li>
+        </ul>
+      </div>
+
+      <div class="logo">
+        <img src="images/Fichier3.png" alt="Graphitech">
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Graphitech @Irené MEDETONOU. Tous droits réservés.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <div class="wave-effect"></div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
